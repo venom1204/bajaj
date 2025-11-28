@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # YOUR API URL (Change this to your Render URL later)
-API_URL = "http://127.0.0.1:8000/extract-bill-data"
+API_URL = "https://bajaj-opwg.onrender.com"
 
 st.title("🧾 AI Bill Extractor")
 st.write("Paste an image URL below to extract line items automatically.")

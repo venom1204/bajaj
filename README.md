@@ -47,12 +47,17 @@ cd bill-extractor
 * It is recommended to use a virtual environment to manage dependencies.
 ```
 # Create the environment
+```
 python -m venv venv
-
+```
 # Activate it:
+
 # On Windows:
+```
 venv\Scripts\activate
+```
 # On Mac/Linux:
+```
 source venv/bin/activate
 ```
 

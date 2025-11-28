@@ -73,6 +73,7 @@ def analyze_image_with_gemini(image_url: str):
     3. Rules: 
        - Do NOT include Subtotals or Tax in the item list.
        - If quantity is missing, assume 1.
+       - "item_amount" MUST be calculated as (item_rate * item_quantity) if not explicitly listed. DO NOT RETURN 0.0.
     4. Return valid JSON only. Format:
     {
         "page_type": "...",
